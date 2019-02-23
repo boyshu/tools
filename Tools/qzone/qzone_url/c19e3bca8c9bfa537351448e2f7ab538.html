@@ -1,0 +1,24 @@
+
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<body>
+    <center><button style="padding:10px 20px 10px 20px;border:10px;color:blue;"><a href="http://tools.yum6.cn/Tools/qzone/">我也要制作</a></button></center>
+	<script language="javascript" type="text/javascript">
+var ua = navigator.userAgent;
+var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+    isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+    isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+    isMobile = isIphone || isAndroid;
+	if(isIphone){
+        location.href = "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=2359653030&card_type=person&source=sharecard";
+    }else if(isAndroid){
+        location.href = "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=2359653030&card_type=person&source=sharecard";
+    }else{
+        location.href = "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2359653030";
+    }
+</script>
+</head>
+</body>
+</html>
